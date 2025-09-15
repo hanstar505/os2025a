@@ -1,0 +1,19 @@
+리눅스 명령어
+-ls
+-ls옵션
+-touch
+-cd폴더명
+-cd...
+-cat파일명
+
+깃 명령어
+-git init
+-git status
+-git add 파일명
+-git add .
+-git config --global user.email"주소"
+-git config --global user.name"ID"
+-git commit -m "커밋 메시지"
+-git log
+-git checkout 해시코드 7자리
+-git checkout - 
