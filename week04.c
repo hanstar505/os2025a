@@ -1,5 +1,3 @@
 //#include <stdio.h>
+//#int main()
 
-void main{
-
-printf("hellow world.")}
