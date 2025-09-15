@@ -1,5 +1,7 @@
+리눅스 명령
+
 깃 명령어
 git commit --amend -m
 git reset --hard HEAD ~최근커밋
-fetch
-pull
+git fetch
+git pull
