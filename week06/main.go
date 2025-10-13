@@ -2,11 +2,13 @@ package main
 
 import (
 	"fmt"
-	"math"
-	"strings"
 )
 
 func main() {
-	fmt.Println(math.Round(2.71))
-	fmt.Println(strings.Title("head first go"))
+	// var name string
+	// name = "Kim Inha"
+
+	// var name = "Kim Inha"
+	name := "Kim Inha"
+	fmt.Println(name)
 }
