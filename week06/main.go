@@ -9,6 +9,7 @@ func main() {
 	// name = "Kim Inha"
 
 	// var name = "Kim Inha"
-	name := "Kim Inha"
-	fmt.Println(name)
+	//var name float64
+	totalPrice := 500
+	fmt.Println(totalPrice)
 }
