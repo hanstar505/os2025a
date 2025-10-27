@@ -2,20 +2,24 @@ package main
 
 import (
 	"fmt"
+	"log"
 )
 
-func swap(first int, second int) {
-	temp := 0
-	temp = first
-	first = second
-	second = temp
-	fmt.Println(first, second)
+func GetFloat() (float64, error) {
+
 }
 
 func main() {
-	var a, b int = 10, 20
-	fmt.Println(a, b)
-	swap(a, b)
-	fmt.Println(a, b)
-	//fmt.Print("%.2f\n", math.Sprt(-25.0))
+	fmt.Print("점수 입력 :")
+	score, err := GetFloat()
+	if err != nil {
+		log.Fatal(err)
+	}
+	status := ""
+	if score >= 60 {
+		status = "합격"
+	} else {
+		status = "불합격"
+	}
+	fmt.Printf("%.2f점은 %s\n", score, status)
 }
