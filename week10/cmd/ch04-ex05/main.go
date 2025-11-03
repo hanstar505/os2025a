@@ -5,7 +5,7 @@ import (
 	"greeting"
 	"log"
 
-	"github.com/os2025a.git/keyboard"
+	"github.com/os2025a/keyboard"
 	//"week10/pkg/keyboard"
 )
 
