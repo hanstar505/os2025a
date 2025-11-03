@@ -1,11 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	arrauBool := [3]bool{true, false, true} //배열 리터럴
-	var arrayInt [3]int
-	fmt.Println(arrauBool[1]) //zero value
-	arrayInt[1] = 2           // arrayInt[1] + 1
-	fmt.Println(arrayInt[1])  //zero value + 2
+	arrayBool := [3]bool{true, false, true} //배열 리터럴
+	arrayInt := [3]int{-9, 11, 7}
+	for i := 0; i < len(arrayInt); i++ {
+		fmt.Println(i, arrayInt[i])
+		fmt.Println(i, arrayBool[i])
+	}
+
+	//fmt.Println(reflect.TypeOf(arrayBool))
+	//fmt.Printf("%v\n", arrayBool)
+	//fmt.Printf("%v\n", arrayInt)
 }
